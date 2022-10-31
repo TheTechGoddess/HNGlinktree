@@ -1,8 +1,5 @@
 import profile from '../assets/profile.jpg'
 import { FaTwitter } from 'react-icons/fa'
-import { FaShare } from 'react-icons/fa'
-import { useState } from 'react'
-import  { RWebShare } from 'react-web-share'
 import camera from '../assets/camera.png'
 import mshare from '../assets/msharebutton.png'
 import dshare from '../assets/dsharebutton.png'
@@ -20,7 +17,7 @@ const Profile = () => {
         
         <div className='py-4 flex justify-between hover:opacity-20 group '>
             <img id='profile__img'
-            src={profile} alt="profile" className='' style={{width : '100px', borderRadius: '50%' }} />
+            src={profile} alt="profile" className='' style={{width : '90px',height: '90px', borderRadius: '50%' }} />
             <div className='pt-10 text-center opacity-0 group-hover:opacity-100'>
               <img src={camera} alt="" style={{marginLeft: '-60px'}} className='bg-[black] absolute'/>
             </div>                
