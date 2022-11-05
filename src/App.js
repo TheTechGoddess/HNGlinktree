@@ -3,25 +3,24 @@ import Footer from "./components/Footer";
 import Linktree from "./components/Linktree";
 import Profile from "./components/Profile";
 import Contact from "./components/Contact";
-import { HashRouter } from 'react-router-dom'
 
 function App() {
   return (
-    <HashRouter>
+    <Router>
          <Routes>
             
-            <Route path="/" element={
+            <Route exact path="/" element={
               <>
               <Profile />
               <Linktree />
               </>
             }/>
             
-            <Route path="/contact" element={<Contact />}/>
+            <Route exact path="/contact" element={<Contact />}/>
     
           </Routes>
           <Footer />
-    </HashRouter>
+    </Router>
     
   );
 }
