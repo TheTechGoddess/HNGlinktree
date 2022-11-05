@@ -4,7 +4,8 @@ import I4G from '../assets/I4G.jpg'
 
 const Footer = () => {
   return (
-    <div className='sm:flex w-full justify-start sm:justify-between text-[black] px-4 md:px-20 sm:px-10' style={{marginTop: '-40px'}}>
+    
+    <div className='sm:flex w-full justify-start sm:justify-between text-[black] px-4 md:px-20 sm:px-10 '>
       <div className='flex justify-start mb-3'>
         <h2 className='text-lg font-bold pr-1'>Zuri</h2>
         <p className='mt-3'><img src={vector} alt="" /></p>

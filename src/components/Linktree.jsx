@@ -1,6 +1,7 @@
 import React from 'react'
 import slack from '../assets/slack.png'
 import github from '../assets/github.png'
+import { Link } from 'react-router-dom'
 
 const linktree = () => {
   return (
@@ -12,6 +13,7 @@ const linktree = () => {
             <a className='py-3 bg-gray-200 rounded-lg my-3 text-center hover:bg-gray-300' href="https://books.zuri.team/" id='book_python target="_blank" rel="noopener noreferrer"'>Python</a>
             <a className='py-3 bg-gray-200 rounded-lg my-3 text-center hover:bg-gray-300' href="https://background.zuri.team" id='pitch' target="_blank" rel="noopener noreferrer">Zuri Background</a>
             <a className='py-3 bg-gray-200 rounded-lg my-3 text-center hover:bg-gray-300' href="https://books.zuri.team/design-rules" id='book__design' target="_blank" rel="noopener noreferrer"> UI/UX </a> 
+            <a className='py-3 bg-gray-200 rounded-lg my-3 text-center hover:bg-gray-300' href="/contact" id='contact' target="_blank" rel="noopener noreferrer"> <Link to="/Contact">Contact Me</Link> </a> 
         </div>
         <div className='flex justify-between py-10'>
           <a href="https://hng9.slack.com/"><img src={slack} alt="slack" className='px-6' /></a>
