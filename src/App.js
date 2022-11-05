@@ -3,10 +3,11 @@ import Footer from "./components/Footer";
 import Linktree from "./components/Linktree";
 import Profile from "./components/Profile";
 import Contact from "./components/Contact";
+import { HashRouter } from 'react-router-dom'
 
 function App() {
   return (
-    <Router>
+    <HashRouter>
          <Routes>
             
             <Route path="/" element={
@@ -20,7 +21,7 @@ function App() {
     
           </Routes>
           <Footer />
-    </Router>
+    </HashRouter>
     
   );
 }
