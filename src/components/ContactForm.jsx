@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Contact = () => {
+const ContactForm = () => {
   return (
     <div className='flex flex-col w-full h-screen text-[#101828] mt-20 px-4 md:px-20 sm:px-10 mb-36'>
       <div className='flex flex-col'>
@@ -43,4 +43,4 @@ const Contact = () => {
   )
 }
 
-export default Contact
+export default ContactForm
