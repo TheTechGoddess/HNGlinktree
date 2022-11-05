@@ -1,4 +1,4 @@
-import {BrowserRouter as Router, Route, Routes } from 'react-router-dom'; 
+import {Route, Routes } from 'react-router-dom'; 
 import Footer from "./components/Footer";
 import Linktree from "./components/Linktree";
 import Profile from "./components/Profile";
@@ -6,7 +6,8 @@ import Contact from "./components/Contact";
 
 function App() {
   return (
-    <Router>
+          <>
+          
          <Routes>
             
             <Route exact path="/" element={
@@ -20,7 +21,7 @@ function App() {
     
           </Routes>
           <Footer />
-    </Router>
+          </>
     
   );
 }
