@@ -3,7 +3,6 @@ import { FaTwitter } from 'react-icons/fa'
 import camera from '../assets/camera.png'
 import mshare from '../assets/msharebutton.png'
 import dshare from '../assets/dsharebutton.png'
-import { Link } from 'react-router-dom'
 const Profile = () => {
   return (
     
